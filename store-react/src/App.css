@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-family: "Montserrat", sans-serif;
+  color: gray;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.input {
+  background-color: rgb(86, 240, 214);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  color: rgb(66, 86, 201);
+  margin-bottom: 15px;
+}
+
+
+.text-input {
+  background-color: rgb(61, 178, 182);
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 6px 10px;
+  color: rgb(66, 86, 201);
+  font-size: 15px;
+}
+
+
+button {
+  outline: none;
+  border: 1px solid rgb(66, 86, 201);
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 6px;
+  color: rgb(66, 86, 201);
+}
+
+button:hover {
+  box-shadow: 0px 0px 5px rgb(14, 26, 97);
+}
+
+button:active {
+  transform: scale(0.92);
+}
+
+.issues-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh 32vw;
+}
+
+.issues-card {
+  border: 10px solid rgb(69, 211, 164);
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(139, 235, 171);
+  border-radius: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+
+.username {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.content {
+  font-size: 35px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 15px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bolder;
+  color: rgb(50, 50, 50);
+}
+
+.body {
+  font-size: 20px;
+  color: rgb(82, 82, 82);
+}
